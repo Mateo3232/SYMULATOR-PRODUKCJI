@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SYMULATOR PRODUKCJI MAPRE120</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div>
+        <h1>PRĘDKOŚĆ PRODUKCJI: 100m/min</h1>
+        <h1>PREDKOŚĆ ODBIERACZA: 200m/min</h1>
+        </div>
+        <div style="display: flex; flex-direction: row; gap:40px;">
+        <div>
+            <label>Impuls z drukarki</label>
+            <p class="magazynSelector"></p>
+        </div>
+        <div>
+        <label>metraż początkowy</label>
+        <p class="startSelector"></p>
+        </div>
+        <div>
+        <label>metraż końcowy</label>
+        <p class="endSelector"></p>
+        </div>
+        </div>
+        <button id="produkcjaSTART">START PRODUKCJA</button>
+        <button id="produkcjaSTOP">STOP PRODUKCJA</button>
+        <button id="odbieraczSTART">START ODBIERACZ</button>
+        <button id="odbieraczSTOP">STOP ODBIERACZ</button>
+        <div style="margin-top: 20px;">
+        <label>KOMPENSATOR MAPRE120:</label>
+        <p style="word-wrap: break-word; max-width: 100%;" id="kompensator"></p>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
